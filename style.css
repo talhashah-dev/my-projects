@@ -17,13 +17,19 @@ body{
     /* align-items: center; */
     margin-top: 100px;
     width: 80%;
+    /* background-color: #fff; */
+    flex-wrap: wrap;
+    gap: 10px;
 }
+
 
 .project-card{
     height: 220px;
     width: 240px;
     border: 5px solid orangered;
+    background-color: white;
     border-radius: 3px;
+    margin: 0 5px 0 0;
 }
 
 .calculater{
