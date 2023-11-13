@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     /* align-items: center; */
+    font-family: sans-serif;
 }
 
 .container{
@@ -23,25 +24,60 @@ body{
 }
 
 
-.project-card{
-    height: 220px;
-    width: 240px;
-    border: 5px solid orangered;
+.frame{
+    height: 270px;
+    width: 260px;
+    padding: 10px;
+    padding-bottom: 45px;
     background-color: white;
+    border-radius: 2px;
+}
+
+
+.project-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 8px;
+
+}
+
+.project-info img{
+    height: 25px;
+}
+
+.project-info a{
+    color: black;
+    text-decoration: none;
+}
+
+.project-info a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+.project-card{
+    height: 100%;
+    width: 100%;
+    /* border: 5px solid orangered; */
+    /* background-color: white; */
     border-radius: 3px;
-    margin: 0 5px 0 0;
+    /* margin: 0 5px 0 0; */
 }
 
 .calculater{
-    background-image: url(./images/calculater.png);
+    background-image: url(./assests/projects-look/calculater.png);
 }
 
 .palindrome{
-    background-image: url(./images/palindrome.png);
+    background-image: url(./assests/projects-look/palindrome.png);
 }
 
 .timer{
-    background-image: url(./images/timer.png);
+    background-image: url(./assests/projects-look/timer.png);
 }
 
 .calculater,.palindrome,.timer{
